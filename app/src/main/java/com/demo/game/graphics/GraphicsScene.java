@@ -10,6 +10,9 @@ import java.util.List;
 
 public class GraphicsScene {
 
+    public static final int BELOW_WATER_LAYER = 0;
+    public static final int ABOVE_WATER_LAYER = 1;
+
     private List<GraphicsObject> objects;
 
     private SparseArray<List<GraphicsObject>> layers;

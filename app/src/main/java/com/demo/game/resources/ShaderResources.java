@@ -20,9 +20,9 @@ public class ShaderResources {
                 FileUtil.readAssetToString(context.getAssets().open("shaders/object_plain.vert")),
                 FileUtil.readAssetToString(context.getAssets().open("shaders/object_plain.frag"))));
 
-        addShader("object_gray", new Shader(
-                FileUtil.readAssetToString(context.getAssets().open("shaders/object_plain.vert")),
-                FileUtil.readAssetToString(context.getAssets().open("shaders/object_gray.frag"))));
+        addShader("fbo_default", new Shader(
+                FileUtil.readAssetToString(context.getAssets().open("shaders/fbo_plain.vert")),
+                FileUtil.readAssetToString(context.getAssets().open("shaders/fbo_plain.frag"))));
 
         loadAllShaders();
     }

@@ -1,0 +1,101 @@
+{
+  "animations" : [
+    {
+      "name" : "swim",
+      "repeat" : true,
+      "delay" : 80,
+      "frames" : [
+        {
+          "image" : "turtle.swim_0",
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.swim_1",
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.swim_2",
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.swim_3",
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.swim_4",
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.swim_5",
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.swim_6",
+          "x" : 0,
+          "y" : 0
+        }
+      ]
+    },
+    {
+      "name" : "jump",
+      "repeat" : false,
+      "delay" : 80,
+      "frames" : [
+        {
+          "image" : "turtle.jump_0",
+          "scale" : 1.2,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.jump_1",
+          "scale" : 1.2,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.jump_2",
+          "scale" : 1.2,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.jump_3",
+          "scale" : 1.2,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.jump_4",
+          "scale" : 1.2,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image": "turtle.jump_5",
+          "scale" : 1.2,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image" : "turtle.jump_6",
+          "scale" : 1.2,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "image" : "turtle.jump_7",
+          "scale" : 1.2,
+          "x" : 0,
+          "y" : 0
+        }
+      ]
+    }
+  ]
+}

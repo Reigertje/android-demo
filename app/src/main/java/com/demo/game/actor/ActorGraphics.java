@@ -42,6 +42,14 @@ class ActorGraphics {
         return graphicsObjects.get(index);
     }
 
+    public Vec2 getGraphicsObjectOffset(int index) {
+        return graphicsObjectOffsets.get(index);
+    }
+
+    public int count() {
+        return graphicsObjects.size();
+    }
+
     public void removeGraphicsObject(GraphicsObject object) {
         int index = graphicsObjects.indexOf(object);
         if (index >= 0) {

@@ -10,11 +10,7 @@ public class Controller {
     }
 
     public enum Action {
-        UP,
-        LEFT,
-        RIGHT,
-        DOWN,
-        GESTURE
+        TOUCH
     }
 
     private ActionState[] actionStates;
@@ -69,7 +65,6 @@ public class Controller {
             gesturePerformed[i] = false;
         }
     }
-
 
 
     private class ActionState {

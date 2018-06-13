@@ -1,9 +1,10 @@
+
 attribute vec2 vertex_xy;
 attribute vec2 vertex_uv;
 
 varying vec2 fragment_uv;
 
 void main() {
-  fragment_uv = vertex_uv;
-  gl_Position =  vec4(vertex_xy, 0.0, 1.0);
+    fragment_uv = vertex_uv;
+    gl_Position =  vec4(vertex_xy, 0.0, 1.0);
 }

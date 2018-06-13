@@ -19,7 +19,7 @@ public abstract class GraphicsObject {
     private static final Mat4x4 VIEW = new Mat4x4();
     private static final Mat4x4 MODEL_VIEW = new Mat4x4();
     private static final Mat4x4 MODEL_VIEW_PROJECTION = new Mat4x4();
-
+    
     private Box box;
 
     private Vec2 position;

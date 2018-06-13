@@ -169,11 +169,11 @@ public abstract class Scene {
     }
 
     public void handleClick(float x, float y, int pointerIndex) {
-
+        getController().startAction(Controller.Action.TOUCH);
     }
 
     public void handleRelease(int pointerIndex) {
-
+        getController().startAction(Controller.Action.TOUCH);
     }
 
     public void handleGesture(Controller.Gesture gesture) {

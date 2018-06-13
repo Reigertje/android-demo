@@ -79,6 +79,16 @@ public abstract class Actor implements Comparable<Actor> {
         graphics.addGraphicsObject(object);
     }
 
+    public int getGraphicsObjectCount() {
+        return graphics.count();
+    }
+
+    public final void addGraphicsObjectWithOffset(GraphicsObject object, Vec2 offset) {
+        int i = graphics.count();
+        graphics.addGraphicsObject(object);
+        setGraphicsObjectOffset(i, offset);
+    }
+
     public final void setGraphicsObjectOffset(int index, Vec2 offset) {
         graphics.setGraphicsObjectOffset(index, offset);
     }
@@ -87,12 +97,24 @@ public abstract class Actor implements Comparable<Actor> {
         graphics.setGraphicsObjectOffset(index, x, y);
     }
 
+    public final Vec2 getGraphicsObjectOffset(int index) {
+        return graphics.getGraphicsObjectOffset(index);
+    }
+
     public final GraphicsObject getGraphicsObject(int index) {
         return graphics.getGraphicsObject(index);
     }
 
     public final void setInteractionShape(Shape interactionShape) {
         interaction.setInteractionShape(interactionShape);
+    }
+
+    public final void setInteractionShapeOffset(Vec2 offset) {
+        interaction.setInteractionShapeOffset(offset);
+    }
+
+    public final void setInteractionShapeOffset(float x, float y) {
+        interaction.setInteractionShapeOffset(x, y);
     }
 
     public String toString() {

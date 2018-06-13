@@ -1,5 +1,6 @@
 package com.demo.android;
 
+import android.app.Activity;
 import android.content.Context;
 import android.opengl.GLSurfaceView;
 import android.os.SystemClock;
@@ -19,13 +20,13 @@ public class GameView extends GLSurfaceView {
 
     private static final int FRAMES_PER_SECOND = 30;
 
-    private Context context;
+    private Activity context;
 
     private final List<ClonedMotionEvent> motionEventQueue = new ArrayList<>();
 
     private final List<Controller.Gesture> gestureQueue = new ArrayList<>();
 
-    public GameView(Context context) {
+    public GameView(Activity context) {
         super(context);
         this.context = context;
         setEGLContextClientVersion(2);
